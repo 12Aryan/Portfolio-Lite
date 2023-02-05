@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Merriweather", serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h1 {
+  color: crimson;
+  font-family: "Sacramento", cursive;
+  font-size: 80px;
+}
+h3, p {
+  color: #ededed;
+}
+h2 {
+  color: crimson;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+}
+
+
+/* Navbar */
+
+.navbar{
+  padding:1%;
+}
+
+.navbar-collapse{
+  padding-left: 2%;
+  text-align: left;
+}
+.nav-link{
+  color: rgb(138, 5, 31);
+}
+
+.nav-link:hover{
+  color:  crimson;
+}
+
+.navbar-toggler:hover{
+  color: crimson;
+}
+
+/* Profile */
+
+.profile {
+  margin: 5% auto 8% auto;
+}
+.profile-icon {
+  height: 130px;
+  width: 130px;
+  margin-bottom: 3%;
+}
+
+.profile-info {
+  margin: 19% auto 25% auto;
+}
+
+/* Skills */
+.skills {
+  margin-bottom: 15%;
+}
+.skills-icon {
+  position: relative;
+  right: 70px;
+  top: 38px;
+  height: 40px;
+  width: 40px;
+}
+.skill-row {
+  padding-top: 30px;
+  width: 50%;
+  margin: auto;
+  color: #ffff;
+  text-align: center;
+  line-height: 2.5;
+}
+td {
+  width: 67%;
+  text-align: left;
+}
+
+/* Projects */
+.projects {
+  margin-bottom: 13%;
+}
+.project-icon {
+  position: relative;
+  right: 90px;
+  top: 38px;
+  height: 40px;
+  width: 40px;
+}
+.manage-carousel {
+  text-align: center;
+  padding: 0 20% 0 20%;
+}
+.carousel-para {
+  margin: 3% 13% 13% 13%;
+  padding-top: 3%;
+}
+
+/* Footer */
+
+/* CONTACT */
+
+.mail {
+  padding: 10px 50px 60px 50px;
+}
+
+.contact {
+  color: #F0E3CA;
+  text-align: center;
+  padding-top: 5%;
+}
+.contact-icon{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.contact-flex{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.contact-text {
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  background: crimson;
+  border-radius: 16px;
+  font-family: Arial;
+  color: #F0E3CA;
+  font-size: 17px;
+  margin: 1% auto 1% auto;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: rgb(248, 2, 51);
+  text-decoration: none;
+}
+
+.footer{
+  margin: 0px;
+  background-color:  black;
+  padding: 100px 30px 5px 30px;
+
+}
+
+.footer-link{
+  text-align: right;
+  position: relative;
+  left:1%;
+  top:20px;
+}
+
+.link:hover{
+  color: rgb(252, 5, 54);
+}
+
+.link{
+   margin: 1%;
+  color: rgb(138, 5, 31);
+}
+
+.copyright{
+  text-align: left;
+  position: relative;
+  bottom:11px;
+  font-size: 17px;
+  color: crimson;
+}
+
+/* Typewriter */
+.typewriter h3 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid crimson; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation:  typing 5.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: crimson;
+  }
+}
+
+
+
+
+/* Contact-Me Page */
+
+.con-heading{
+  font-size: 30px;
+}
+
+.contact-form{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid crimson;
+}
+
+.form{
+  width: 30%;
+ margin-top: 20px;
+
+}
+
+.form-element{
+  line-height: 2;
+  color: #F0E3CA;
+}
+
+.form-label{
+  text-align: left;
+  position: absolute;
+  left: 39%;
+  line-height: 1;
+}
+
+.form-input{
+  position:absolute;
+  right: 36%;
+  line-height: 1.5;
+}
+
+.btn-submit{
+  
+  background-color: crimson;
+  border-radius: 16px;
+  font-family: Arial;
+  color: #ededed;
+  font-size: 17px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.btn-submit:hover{
+   background-color: rgb(250, 4, 53);
+}
